@@ -9,9 +9,10 @@ library(tidyverse)
 
 library(lavaan)
 
-rm(list=ls())  #alles löschen
+rm(list=ls())  #alles lÃ¶schen
 
-load("C:/Users/Manuel/Nextcloud/project-empsf/UB_MIGRATION STUDIE 2020/Datensätze/ready.RDa")
+# Insert path where dataset is stored
+load("/ready.RDa")
 
 
 df_m <- df1[c("media_ger" , "media_cor" , 
