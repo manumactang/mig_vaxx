@@ -6,9 +6,9 @@ library(tidyverse)
 
 library(lavaan)
 
-rm(list=ls())  #alles löschen
+rm(list=ls())  #alles lÃ¶schen
 
-load("C:/Users/Manuel/Nextcloud/project-empsf/UB_MIGRATION STUDIE 2020/Datensätze/ready.RDa")
+load(/ready.RDa")
 
 
 
