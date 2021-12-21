@@ -8,7 +8,8 @@ library(lavaan)
 
 rm(list=ls())  #alles löschen
 
-load(/ready.RDa")
+# Insert path where dataset is stored
+load("/ready.RDa")
 
 
 
